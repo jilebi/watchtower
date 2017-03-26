@@ -6,3 +6,15 @@ var opt = {
   iconUrl: "../icons/watchtower-48.png"
 }
 chrome.notifications.create(null, opt, null);
+
+var urls = {
+  "content" :  {
+    "url" : "https://yahoo.com",
+    "duration" : "20"
+  },
+  {
+    "url" : "https://yahoo.com",
+    "duration" : "20"
+  }
+
+}
